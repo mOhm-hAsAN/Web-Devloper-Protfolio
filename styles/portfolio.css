@@ -27,7 +27,8 @@ body {
 .section-description {
     color: #757575;
     text-align: center;
-    font-size: 18px;
+    font-size: 23px;
+   
 
 }
 
@@ -94,7 +95,7 @@ nav a {
 }
 
 .banner-content {
-    max-width: 500;
+    max-width: 500px;
 
 }
 
@@ -103,16 +104,20 @@ nav a {
 .banner-title {
     font-size: 85px;
     font-weight: 700;
-    margin-top: 5;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
 /*main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
-.about {
+.about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+    
 }
